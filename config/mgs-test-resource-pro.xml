@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<!-- MD5 -->
+	<string name="md5.key">1234567890qwertyuiopasdfghjklzxc</string>
+	<!-- 商户私钥 -->
+	<string name="merchant.private.key">MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBANMa1Kl8aV4RRZT8c+ErNtdge3VEZ+bmzFRIZ2IiDYYt72xH0gOeqrmKX0607rEQwPRO5NNHQ+KvRlCUWFWyDuqFyt6qEEQz6Nz3gGVMhfv+ipJFkJppc5iOnp2VBUc6CW/T9UIbQuQtiDbRgxGeGcNA1lD9N9ddQevn/u7o+PbrAgMBAAECgYB7etA1qv3+9d9bfCdT5/EWHetY9oBIAWw3SHqgXgbHG4tWLNRdJav7B0MkSJTtoT0cKiGSq7a7m4Znj73zskkiONWm1LdUzk/ed143MzOh0RkZak2ly6goOdbVNdcs6K3pFM3xIWIw2vZkKmTV5ls5J1ZbLJZr80hRn4NzLzTgIQJBAOm85wC40drsqYXCQSpezNFYC6pthSaafRkwZ9QwmJAyEBvGTo9S9ijc5dCXI+VPbvChHrun0B9HIO3uqEPv9AMCQQDnNhQfDKsB4mDH2J90t1GM/vQohQYo6RUIy/bQXJBs/3iY8xbCINNWiPFyjNtIPiUfLh0zRioXNF2kskUNBuD5AkEAv+2Dac5ZU4D9en4V8GrDmCrJ+XnQ2fAFRQfAWjZFMDJLk+L0Yy/mPYuVkgBpU0Q0fpZum/yiIuzPF1DfDlocbQJBAMDmt4boNMyPqJtTukXQpHN0SxR7V5ZOUMRUF4njkIO/6UgCmFxCstAh1P/zUQhHAQWwnaAny/osMGy2ZzHlKVECQFU4PFeO8ta0wthinARe5/FuG1HYx4n44rcLlz7dfin/qOP3ZbgYHxeH18qDSXMgxbE68GGtITHwf+5V0zqtrrI=</string>
+	<!-- 钱包公钥-->
+	<string name="wallet.public.key">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGX8E1bxjarZvjumbAuyA1O/sZtL2HFTsv3BkUiwdUW6pOPYQf5/snTvBhmLNYgC6weOi3lOJaFWsKZrjP8bCC5EOlEqeDeUBgWANKuli5Tufj9MD7XyWJago4pp2mUMh42zeIjbXMStp0Mww/R4x3qXcnnRGa077ZqgdynrD8xQIDAQAB</string>
+	<!-- 网关访问地址 -->
+	<string name="mgs.web">http://qijiapay.com/mgs/service.do</string>
+	<!-- 平台商户memberId-->
+	<string name="partner_id">200000010000</string>
+	<!--标识类型-->
+	<list name="identity_type">
+		<string>UID</string>
+		<string>MEMBER_ID</string>
+		<string>MOBILE</string>
+		<string>LOGIN_NAME</string>
+		<string>COMPANY_ID</string>
+	</list>
+</resources>

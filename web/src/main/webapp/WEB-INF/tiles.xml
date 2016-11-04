@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<definition name="baseLayout" template="/WEB-INF/tiles/template.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="navbar" value="/WEB-INF/tiles/navbar.jsp" />
+		<put-attribute name="content" value="" />
+	</definition>
+
+	<definition name="index" extends="baseLayout">
+		<put-attribute name="title" value="index" />
+		<put-attribute name="content" value="/WEB-INF/view/index.jsp" />
+	</definition>
+
+	<definition name="personal" extends="baseLayout">
+		<put-attribute name="title" value="personal" />
+		<put-attribute name="content" value="/WEB-INF/view/personal.jsp" />
+	</definition>
+
+	<definition name="personalmerchant" extends="baseLayout">
+		<put-attribute name="title" value="personalmerchant" />
+		<put-attribute name="content" value="/WEB-INF/view/personalmerchant.jsp" />
+	</definition>
+
+		<definition name="merchant" extends="baseLayout">
+		<put-attribute name="title" value="merchant" />
+		<put-attribute name="content" value="/WEB-INF/view/merchant.jsp" />
+	</definition>
+
+	<definition name="personal2" extends="baseLayout">
+		<put-attribute name="title" value="personal2" />
+		<put-attribute name="content" value="/WEB-INF/view/personal2.jsp" />
+	</definition>
+
+	<definition name="personalinfo" extends="baseLayout">
+		<put-attribute name="title" value="personalinfo" />
+		<put-attribute name="content" value="/WEB-INF/view/personalinfo.jsp" />
+	</definition>
+
+	<definition name="enterprise" extends="baseLayout">
+		<put-attribute name="title" value="enterprise" />
+		<put-attribute name="content" value="/WEB-INF/view/enterprise.jsp" />
+	</definition>
+
+	<definition name="active" extends="baseLayout">
+		<put-attribute name="title" value="active" />
+		<put-attribute name="content" value="/WEB-INF/view/active.jsp" />
+	</definition>
+
+	<definition name="enterpriseinfo" extends="baseLayout">
+		<put-attribute name="title" value="enterpriseinfo" />
+		<put-attribute name="content" value="/WEB-INF/view/enterpriseinfo.jsp" />
+	</definition>
+
+	<definition name="mobile" extends="baseLayout">
+		<put-attribute name="title" value="mobile" />
+		<put-attribute name="content" value="/WEB-INF/view/mobile.jsp" />
+	</definition>
+
+	<definition name="email" extends="baseLayout">
+		<put-attribute name="title" value="mobile" />
+		<put-attribute name="content" value="/WEB-INF/view/email.jsp" />
+	</definition>
+	<definition name="balance" extends="baseLayout">
+		<put-attribute name="title" value="balance" />
+		<put-attribute name="content" value="/WEB-INF/view/balance.jsp" />
+	</definition>
+
+	<definition name="bankcard" extends="baseLayout">
+		<put-attribute name="title" value="bankcard" />
+		<put-attribute name="content" value="/WEB-INF/view/bankcard.jsp" />
+	</definition>
+
+	<definition name="unbundlingbankcard" extends="baseLayout">
+		<put-attribute name="title" value="unbundlingbankcard" />
+		<put-attribute name="content" value="/WEB-INF/view/unbundlingbankcard.jsp" />
+	</definition>
+
+	<definition name="querycardbin" extends="baseLayout">
+		<put-attribute name="title" value="querycardbin" />
+		<put-attribute name="content" value="/WEB-INF/view/querycardbin.jsp" />
+	</definition>
+
+	<definition name="bindingemail" extends="baseLayout">
+		<put-attribute name="title" value="bindingemail" />
+		<put-attribute name="content" value="/WEB-INF/view/bindingemail.jsp" />
+	</definition>
+
+	<definition name="updateaccountstatus" extends="baseLayout">
+		<put-attribute name="title" value="updateaccountstatus" />
+		<put-attribute name="content" value="/WEB-INF/view/updateaccountstatus.jsp" />
+	</definition>
+	
+	<definition name="userinfo" extends="baseLayout">
+		<put-attribute name="title" value="userinfo" />
+		<put-attribute name="content" value="/WEB-INF/view/userinfo.jsp" />
+	</definition>
+    
+    <definition name="openaccount" extends="baseLayout">
+        <put-attribute name="title" value="openaccount" />
+        <put-attribute name="content" value="/WEB-INF/view/openaccount.jsp" />
+    </definition>
+        
+    <definition name="bindingmember" extends="baseLayout">
+        <put-attribute name="title" value="bindingmember" />
+        <put-attribute name="content" value="/WEB-INF/view/bindingmember.jsp" />
+    </definition>
+    
+    <definition name="unbindingmember" extends="baseLayout">
+        <put-attribute name="title" value="unbindingmember" />
+        <put-attribute name="content" value="/WEB-INF/view/unbindingmember.jsp" />
+    </definition>
+<!--	<definition name="memberInfoUpload" extends="baseLayout">
+		<put-attribute name="title" value="memberInfoUpload" />
+		<put-attribute name="content" value="/WEB-INF/view/memberInfoUpload.jsp" />
+	</definition>-->
+	<definition name="memberInfoUpload" template="/WEB-INF/view/memberInfoUpload.jsp">
+
+	</definition>
+</tiles-definitions>
